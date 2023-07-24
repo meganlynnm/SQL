@@ -1,0 +1,12 @@
+CREATE TABLE bike_store(id INTEGER PRIMARY KEY, type TEXT, size INTEGER, color REAL, quantity INTEGER, price INTEGER);
+
+INSERT INTO bike_store values (1, "rig", "adult", "red", 5, 200);
+INSERT INTO bike_store values (2, "charger", "kid", "blue", 10, 100);
+INSERT INTO bike_store values (3, "climber", "adult", "orange", 2, 500);
+INSERT INTO bike_store values (4, "ranger", "teen", "black", 8, 200);
+INSErt INTO bike_store values (5, "triple rig", "adult", "black", 5, 300);
+INSErt INTO bike_store values (6, "chargerx", "adult", "blue", 10, 300);
+INSErt INTO bike_store values (7, "wheely", "child", "yellow", 15, 150);
+INSErt INTO bike_store values (8, "tomy hawk", "adult", "green", 5, 500);
+INSErt INTO bike_store values (9, "mountainer", "adult", "orange", 5, 400);
+SELECT * FROM BIKE_STORE
